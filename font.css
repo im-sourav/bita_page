@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "font1";
+  src: url("resource/fonts/ZenDots-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font2";
+  src: url("resource/fonts/Lato-Black.ttf") format("truetype");
+} 
+@font-face {
+  font-family: "font3";
+  src: url("resource/fonts/Lobster-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font6";
+  src: url("resource/fonts/CormorantGaramond-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font32"; 
+  src: url("resource/fonts/font32.ttf") format("truetype");  
+}
+@font-face {
+  font-family: "font5";
+  src: url("resource/fonts/font3.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font27";
+  src: url("resource/fonts/font27.ttf") format("truetype");     
+}
+@font-face {
+  font-family: "font40";
+  src: url("resource/fonts/font40.ttf") format("truetype");     
+}
+@font-face {
+  font-family: "font4";
+  src: url("resource/fonts/font4.ttf") format("truetype");     
+}
+@font-face {
+  font-family: "font20";
+  src: url("resource/fonts/font20.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "font8";
+  src: url("resource/fonts/font8.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "roboto";
+  src: url("resource/fonts/roboto-Thin.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "google";
+  src: url("resource/fonts/Product\ Sans\ Regular.ttf") format("truetype"); 
+}

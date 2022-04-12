@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="create.css" />
+  </head>
+  <body>
+    <form class="contaner dark-off" id="post">
+      <p class="heading">Sign Up</p>
+      <p class="back"></p>
+      <div class="close">
+        <input
+          type="text "
+          id="first"
+          spellcheck="false"
+          placeholder="First Name"
+          name="first"
+          class="nm inp"
+          required
+        />
+        <input
+          type="text"
+          id="last"
+          spellcheck="false"
+          placeholder="Last Name"
+          name="last"
+          class="nm inp"
+          required
+        />
+      </div>
+
+      <input
+        type="email"
+        id="email"
+        spellcheck="false"
+        placeholder="Email"
+        name="email"
+        class="inp"
+        required
+      />
+      <input
+        type="password"
+        id="password"
+        placeholder="Password"
+        name="password"
+        class="inp"
+        required
+      />
+      <input
+        type="password"
+        id="coPassword"
+        placeholder="Confirm Password"
+        name="copassword"
+        class="inp"
+        required
+      />
+
+      <div class="radio_btn">
+        <label for="male">
+          <input type="radio" value="male" name="gen" class="gn" required />
+          <x class="gender">Male</x>
+        </label>
+        <label for="female">
+          <input type="radio" value="female" name="gen" class="gn" required />
+          <x class="gender">Female</x>
+        </label>
+        <label for="other">
+          <input type="radio" value="other" name="gen" class="gn" required />
+          <x class="gender">Other</x>
+        </label>
+      </div>
+      <button class="btn">Create Account</button>
+      <p class="next_page">
+        <x>Have an account? </x><a href="index.html">Login account</a>
+      </p>
+    </form>
+    <p id="error"></p>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="create.js"></script>
+  </body>
+</html>

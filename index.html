@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SourceBeging</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="screen.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./resource/imgs/background/icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css"
+    />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+  </head> 
+  <body> 
+    <div id="loding">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <p>Loding...</p>
+    </div>
+    <div id="contener">
+      <div id="slider">
+        <div id="slide_flex">
+          <div id="user">
+            <p class="p1">Welcome Cheap!</p>
+            <span class="close2">+</span>
+            <h5 class="p2">Login to Download source code</h5>
+          </div>
+          <div id="nav">
+            <ul class="ulis" id="ulis">
+              <li class="List" id="Home">
+                <i class="fas fa-home"></i>
+                <p class="list_name">Home</p>
+              </li>
+              <li class="List" id="Games">
+                <i class="fas fa-gamepad"></i>
+                <p class="list_name">Games</p>
+              </li>
+              <li class="List" id="Project">
+                <i class="fas fa-th-large"></i>
+                <p class="list_name">Projects</p>
+              </li>
+              <li class="List" id="App">
+                <i class="fas fa-shopping-bag"></i>
+                <p class="list_name">Apps</p>
+              </li>
+              <li class="List" id="About_me">
+                <i class="fas fa-id-card"></i>
+                <p class="list_name">About Me</p>
+              </li>
+              <li class="List" id="Contact">
+                <i class="fas fa-address-book"></i>
+                <p class="list_name">Contact</p>
+              </li>
+              <li class="List" id="Setting">
+                <i class="fas fa-user-cog"></i>
+                <p class="list_name">Setting</p>
+              </li>
+              <li class="List" id="LogOut">
+                <i class="fas fa-sign-out-alt"></i>
+                <p class="list_name">Logout</p>
+              </li>
+              <div id="by">
+                <p><i>&#169;</i>&nbsp;SouravBarui</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="my_logo" class="my_logo">
+        <img src="resource/imgs/background/full-logo.png" alt="Sourch Begins" />
+      </div>
+      <div id="floating_project">
+        <div class="back_button">
+          <span class="v_arrow back_press pt_back_btn"
+            ><i class="mk_arrowb"></i><i class="mk_line"></i
+          ></span>
+        </div>
+        <div id="fpic"></div>
+      </div>
+      <div class="close"></div>
+      <div id="fixed_items">
+        <div id="navigation_bar">
+          <div id="menu">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div id="search_bar"> 
+            <div id="search_items">
+              <input
+                type="text"
+                placeholder="Search..."
+                class="inputis"
+                id="inputis"
+              />
+              <span id="deleteText"></span>
+              <i class="fas fa-search iis" id="iis"></i>
+              <div id="search_sagest">
+                <p>RESULTS</p>
+                <div id="search_list"></div>
+              </div>
+            </div>
+          </div>
+          <!-- ############################################### -->
+          <div id="account">
+            <i class="fas fa-user-circle"></i>
+            <span></span>
+            <div id="profile_setting">
+              <div id="user_logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <p>LogOut</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="background_items">
+        <div id="home" class="border-down">
+          <div class="img_box1"></div>
+          <div class="img_box2"></div>
+          <div id="user_button" class="active">
+            <!-- ############################################## --> 
+            <div id="login_button" class="buttons">Login</div>
+            <div id="signup_button" class="buttons">Signup</div>
+            <div id="user_is">
+              <p>Welcome User</p> 
+            </div>
+          </div>
+        </div>
+        <div id="game_contener" id="isgames">
+          <div class="title title1">
+            <h2>Latest <i>Game</i></h2>
+          </div>
+          <div id="latest_update">
+            <div id="full_list">
+              <div id="scroll_list"></div>
+            </div>
+            <div id="latest_game_dtls">
+              <div id="lgname">
+                <h3 class="lg_name">G-god</h3>
+                <h6 class="lg_v">Version :</h6>
+              </div>
+              <div id="beta_v">Beta</div>
+              <div class="play_button"><p>Play Now</p></div>
+            </div>
+          </div>
+          <div class="title title2">
+            <h2>All <i>Games</i></h2>
+            <span class="v_arrow"
+              ><i class="mk_arrowb"></i><i class="mk_line"></i
+            ></span>
+          </div>
+          <div id="game_list"></div>
+        </div>
+        <div id="fixed_ui">
+          <div id="game_tab"></div>
+        </div>
+        <div id="project_contener" class="border-down">
+          <div><h2>Projects</h2></div>
+          <div class="more">
+            <div class="more_ctr pmore">
+              <p>More</p>
+              <span class="arrow project_more"><i class="arrow_in"></i></span>
+            </div>
+          </div>
+          <div id="project">
+            <div class="slide_btn active" id="slide_b1">
+              <span class="arrow"><i class="arrow_in" id="previous"></i></span>
+            </div>
+            <div id="every_project">
+              <div class="card_list"></div>
+              <div class="card_list"></div>
+            </div>
+            <div class="slide_btn" id="slide_b2">
+              <span class="arrow"><i class="arrow_in" id="next"></i></span>
+            </div>
+          </div>
+          <br /><br />
+        </div>
+        <div id="app_contener">
+          <div class="title app_title"><h2>Apps</h2></div>
+          <div id="app_list"></div>
+          <div class="more">
+            <div class="more_ctr more_forapp">
+              <p>More</p>
+              <span class="arrow app_more"><i class="arrow_in"></i></span>
+            </div>
+          </div>
+        </div>
+        <div id="app_tab">
+          <div id="fixed_app_list"></div>
+        </div>
+        <div id="about_me">
+          <h1>About Me</h1>
+          <div class="my_card">
+            <div id="profile">
+              <img
+                src="resource/imgs/background/sourav.png"
+                alt="sourav image"
+              />
+              <h4>Hello. My name is</h4>
+              <h2>Sourav Barui</h2>
+              <h4>And I'm a Learner</h4>
+              <p>Follow Me</p>
+              <span>
+                <a href="https://www.facebook.com/sourav.barui.712"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Sourav_Barui_"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_sourav_barui_/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/im-sourav"><i class="fab fa-github"></i></a>
+              </span>
+            </div>
+            <ul id="skill_bar">
+              <h3>My Skills</h3>
+              <li>
+                <h5>HTML</h5>
+                <span
+                  ><p class="sall" id="s1"><i class="anid"></i></p
+                ></span>
+                <h6>80%</h6>
+              </li>
+              <li>
+                <h5>CSS</h5>
+                <span
+                  ><p class="sall" id="s2"><i class="anid"></i></p
+                ></span>
+                <h6>85%</h6>
+              </li>
+              <li>
+                <h5>JS</h5>
+                <span
+                  ><p class="sall" id="s3"><i class="anid"></i></p
+                ></span>
+                <h6>70%</h6>
+              </li>
+              <li>
+                <h5>JAVA</h5>
+                <span
+                  ><p class="sall" id="s4"><i class="anid"></i></p
+                ></span>
+                <h6>50%</h6>
+              </li>
+              <li>
+                <h5>PHP</h5>
+                <span
+                  ><p class="sall" id="s5"><i class="anid"></i></p
+                ></span>
+                <h6>40%</h6>
+              </li>
+              <li>
+                <h5>C</h5>
+                <span
+                  ><p class="sall" id="s6"><i class="anid"></i></p
+                ></span>
+                <h6>45%</h6>
+              </li>
+              <li>
+                <h5>C++</h5>
+                <span
+                  ><p class="sall" id="s7"><i class="anid"></i></p
+                ></span>
+                <h6>45%</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer id="footer">
+          <div class="footer_top">
+            <h3>Source Begins</h3>
+            <p>contact me ></p>
+          </div>
+          <div class="footer_ground">
+            <p>copyright by &#169; sourav barui 2021</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <script src="user/firebase.js"></script>
+    <script src="library.js"></script>
+    <script src="source.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        flex-wrap: wrap;
+      }
+      img {
+        background: #000fff;
+        width: 40vw;
+        height: 40vw;
+        border: 3px solid #f00;
+        margin: 10vh;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="d" src="" />
+    <button onclick="show()">show image</button>
+    <script>
+      const img = document.querySelector("#d");
+      function show() {
+        // img.src = "https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg";
+        img.src =
+          "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260";
+      }
+    </script>
+  </body>
+</html>

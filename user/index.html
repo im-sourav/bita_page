@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="center">
+      <form class="contaner" id="post">
+         <p class="heading">Login</p>
+         <p class="back"></p>
+         <input
+           type="username"
+           spellcheck="false"
+           placeholder="Username"
+           name="username"
+           id="email"
+           required
+         />
+         <input
+           type="password"
+           placeholder="Password"
+           name="password"
+           id="password"
+           required
+         />
+         <button name="submit">Submit</button>
+         <p class="next_page">
+           Don't Have an account? <a href="create.html">create account</a>
+         </p>
+      </form>
+      <p id="error"></p>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
